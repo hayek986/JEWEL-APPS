@@ -14,17 +14,17 @@ workflows:
         cd customer
         flutter pub get
       - |
-        # بناء تطبيق أندرويد بصيغة APK.
-        echo "Building Android APK..."
+        # بناء تطبيق iOS بصيغة IPA
+        echo "Building iOS IPA..."
         cd customer
-        flutter build apk --release
+        flutter build ios --release --no-codesign
 
     artifacts:
-      # تحديد مكان ملفات APK التي تم بناؤها.
-      - customer/build/app/outputs/apk/release/*.apk
+      # تحديد مكان ملفات IPA التي تم بناؤها.
+      - customer/build/ios/ipa/*.ipa
 
     publishing:
-      # إعدادات نشر التطبيق (يمكنك إضافتها لاحقاً).
+      # إعدادات النشر
       email:
         recipients:
           - your-email@example.com
