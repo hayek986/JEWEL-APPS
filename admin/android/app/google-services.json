@@ -1,0 +1,184 @@
+{
+  "project_info": {
+    "project_number": "78317324117",
+    "project_id": "alhayekjewelry-7ff5e",
+    "storage_bucket": "alhayekjewelry-7ff5e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78317324117:android:185b76f2330cff4d8711dc",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMn0sc0hEhH985nmSV69vXVMrMs-rDSR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78317324117:android:7588c4faadd1fc7c8711dc",
+        "android_client_info": {
+          "package_name": "com.example.alhayekjewel10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMn0sc0hEhH985nmSV69vXVMrMs-rDSR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78317324117:android:0db4db7ef52313f08711dc",
+        "android_client_info": {
+          "package_name": "com.example.alhayekjewel2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMn0sc0hEhH985nmSV69vXVMrMs-rDSR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78317324117:android:98f8d60bf91332b18711dc",
+        "android_client_info": {
+          "package_name": "com.example.hayekjewel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMn0sc0hEhH985nmSV69vXVMrMs-rDSR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78317324117:android:0bbab1d3a1a3d3e08711dc",
+        "android_client_info": {
+          "package_name": "com.example.newhayekjewel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMn0sc0hEhH985nmSV69vXVMrMs-rDSR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78317324117:android:997407bf64f8254c8711dc",
+        "android_client_info": {
+          "package_name": "com.example.newhayekjewel_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMn0sc0hEhH985nmSV69vXVMrMs-rDSR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78317324117-bafakavukrlrjvjeb1garmrvcvd67bf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "alhayekjewelry-7ff5e",
+          "appId": "1:78317324117:android:185b76f2330cff4d8711dc",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "alhayekjewelry-7ff5e",
+          "configurations": {
+            "android": "1:78317324117:android:185b76f2330cff4d8711dc",
+            "ios": "1:78317324117:ios:cbf341a7458ab4c48711dc",
+            "macos": "1:78317324117:ios:cbf341a7458ab4c48711dc",
+            "web": "1:78317324117:web:2490d6482baebb9a8711dc",
+            "windows": "1:78317324117:web:68bccef5002e08db8711dc"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
