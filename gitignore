@@ -1,0 +1,8 @@
+# Git-ignored Flutter files
+.dart_tool/
+.flutter-plugins-dependencies
+.flutter-plugins
+.packages
+.idea/
+.DS_Store
+.env
