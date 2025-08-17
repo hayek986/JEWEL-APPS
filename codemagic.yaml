@@ -1,26 +1,33 @@
-    workflows:
-      default-workflow:
-        name: Default Workflow
-        environment:
-          flutter: stable
-          xcode: latest
-          jdk: 17
-        scripts:
-          - |
-            echo "Installing Flutter dependencies..."
-            cd customer
-            flutter pub get
-          - |
-            echo "Building Android APK..."
-            cd customer
-            flutter build apk --release
-        artifacts:
-          - customer/build/app/outputs/apk/release/*.apk
-        publishing:
-          email:
-            recipients:
-              - your-email@example.com
-            notify:
-              success: true
-              failure: false
+workflows:
+  default-workflow:
+    name: Default Workflow
+    environment:
+      # إصدار فلاتر الذي سيستخدمه Codemagic.
+      flutter: stable
+      # إصدار Xcode الذي تحتاجه لبناء تطبيقات iOS.
+      xcode: latest
     
+    scripts:
+      - |
+        # تثبيت حزم فلاتر (packages) للمشروع.
+        echo "Installing Flutter dependencies..."
+        cd customer
+        flutter pub get
+      - |
+        # بناء تطبيق أندرويد بصيغة APK.
+        echo "Building Android APK..."
+        cd customer
+        flutter build apk --release
+
+    artifacts:
+      # تحديد مكان ملفات APK التي تم بناؤها.
+      - customer/build/app/outputs/apk/release/*.apk
+
+    publishing:
+      # إعدادات نشر التطبيق (يمكنك إضافتها لاحقاً).
+      email:
+        recipients:
+          - your-email@example.com
+        notify:
+          success: true
+          failure: false
